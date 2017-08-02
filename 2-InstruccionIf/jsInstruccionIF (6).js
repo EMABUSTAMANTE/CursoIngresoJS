@@ -1,21 +1,19 @@
 function Mostrar()
 {
 //tomo la edad  
-var edad =document.getElementById('edad').value;
+var ed=document.getElementById('edad').value;
 
-if(edad>17)
+if(ed>17)
 	{
-		alert("usted es Mayor");
+		alert("Mayor");
 	}
-else
-	if(edad<13)
+else if(ed<12) //CADA VEZ Q USO OTRO IF DEBE TENER ADELANTE UN ELSE
 	{
-		alert("usted es menor");
+		alert("Menor");
 	}
-	else
-		alert("usted es adolescente");
-
-
-
-
+	else 
+	{
+		alert("adolescente");
+	}
+//FUNCIONANDO PERFECTO
 }//FIN DE LA FUNCIÓN

@@ -1,14 +1,19 @@
 function Mostrar()
 {
 //tomo la edad  
-var edad=document.getElementById('edad').value;
-var estadoCivil=document.getElementById('estadoCivil').value;
+var ed=document.getElementById('edad').value;
+var ec=document.getElementById('estadoCivil').value;
 
-if(edad<18 && estadoCivil!="Soltero")
+if(ed<18 && ec!='Soltero')
 	{
-		alert("Es muy pequeño para ser soltero");
-	} 
+		alert("Es muy pequeño para NO ser soltero");
+	}
 	else
-		alert("No aplica");
+	{
+		alert("Segui participando");
+	}
+	
+	//DE MARAVISHA jejee
+
 
 }//FIN DE LA FUNCIÓN
