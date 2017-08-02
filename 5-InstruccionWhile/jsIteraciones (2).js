@@ -1,14 +1,13 @@
 function Mostrar()
 {
 	//alert('iteración while');
-//FUNCIONANDO
-var contador;
+var contador=11;
 
-contador=10;
+	while(contador>1)
+		{
+			contador=contador-1;
+			alert(contador);
+		}
+//FUNCIONANDO PERFECTO
 
-while (contador>0)
-	{
-		alert(contador);
-		contador=contador-1;
-	}
 }//FIN DE LA FUNCIÓN
